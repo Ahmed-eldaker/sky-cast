@@ -1,0 +1,74 @@
+.navbar {
+  border: 3px solid rgba(255, 255, 255, 1);
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 20px;
+  /* width: 1292px; */
+  margin: 24px 24px;
+  height: 85px;
+  /* margin: auto; */
+}
+.skyCastText {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20.57px;
+  color: rgba(15, 179, 187, 1);
+  display: inline-block;
+  margin-left: 15px;
+}
+.egyptText {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+}
+.searchInput {
+  width: 216px;
+  height: 38px;
+  top: 28px;
+  left: 920px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: transparent;
+  border-radius: 12px;
+  color: rgba(181, 183, 192, 1);
+  font-family: Poppins;
+}
+.searchInput::placeholder {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  color: rgba(181, 183, 192, 1);
+}
+
+.searchInput:focus {
+  outline: none !important;
+}
+
+.searchIconNav {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+}
+.signUpButton {
+  background: rgba(15, 179, 187, 0.8);
+  color: rgba(0, 0, 0, 1);
+  border-radius: 10px;
+ 
+}
+.signUpButton .btn:hover,.signUpButton .btn {
+    color: rgba(0, 0, 0, 1);
+  font-family: Inter;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 20.57px;
+  text-align: center;
+  padding: 15px 30px;
+
+}

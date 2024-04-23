@@ -1,0 +1,307 @@
+.cards{
+    border: 3px solid rgba(255, 255, 255, 1);
+    background: rgba(255, 255, 255, 0.4);
+
+border-radius: 20px ;
+border: 3px 0px 0px 0px;
+opacity: 0px;
+margin-top: 1rem;
+
+
+
+}
+
+.currentWeatherCard > p:first-child{
+    width: 6rem ;
+    color:  rgba(0, 0, 0, 0.4);
+    ;
+
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.52px;
+    
+}
+.currentWeatherCard > div{
+    /* width: 55%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.currentWeatherCard > div > p:nth-child(2) {
+    font-family: Poppins;
+font-size: 25px;
+font-weight: 300;
+line-height: 65px;
+text-align: center;
+
+    color: rgba(0, 0, 0, 1);
+    padding-top: 16px;
+
+}
+
+
+.currentWeatherCard > div > p:nth-child(3) {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 65px;
+    color:rgba(0, 0, 0, 0.4);
+    padding-top: 16px;
+
+}
+
+
+.currentWeatherCard > div:nth-child(3) >p:first-child {
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 300;
+
+    text-align: center;
+    
+
+    }
+
+
+    .Cites >p:first-child{
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 500;
+color: rgba(0, 0, 0, 0.88);
+
+    } 
+
+    .Cites >p:nth-child(2),.Cites >p:nth-child(3){
+      
+font-size: 14px;
+font-weight: 400;
+color: rgba(0, 0, 0, 0.48);
+
+    }
+    .citeline{
+        width: 90%;
+display: flex;  
+margin: auto;  }
+
+
+.weather > p:first-child{
+    font-family: poppins;
+font-size: 12px;
+font-weight: 500;
+color: rgba(0, 0, 0, 0.88);
+;
+
+}
+
+.weather > p:nth-child(2){
+  
+    font-family: poppins;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.48);
+    ;    
+}
+.weather > p:nth-child(4){
+  
+    font-family: poppins;
+font-size: 12px;
+font-weight: 600;
+color: rgba(0, 0, 0, 0.88);
+;
+}
+
+.weather > p:nth-child(5),.weather > p:nth-child(6){
+  
+    font-family: poppins;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.68);
+    ;
+}
+
+.daysCard >div:nth-child(2),.daysCard >div:nth-child(6){
+    font-family: Inter;
+    font-size: 12.4px;
+    font-weight: 400;
+    line-height: 15.01px;
+    
+    color: rgba(0, 0, 0, 0.6);
+
+}
+
+.daysCard >div:nth-child(3),.daysCard >div:nth-child(5){
+    font-family: Inter;
+    font-size: 14.17px;
+    font-weight: 400;
+    line-height: 17.15px;
+    
+    
+    color: rgba(0, 0, 0, 0.8);
+
+}
+
+.daysCard >div:nth-child(4){
+    font-family: Inter;
+    font-size: 17.72px;
+    font-weight: 400;
+    line-height: 21.44px;
+    text-align: center;
+    
+    
+    
+    color: rgba(0, 0, 0, 1);
+
+}
+
+
+.clockContainer >div{
+    font-family: Inter;
+    font-size: 17.12px;
+    font-weight: 500;
+    line-height: 20.71px;
+    text-align: center;
+    
+color :rgba(0, 0, 0, 1);
+    
+}
+
+.airCondations{
+    font-family: Inter;
+font-size: 14px;
+font-weight: 700;
+line-height: 16.94px;
+color :rgba(0, 0, 0, 1);
+margin: 1.5rem;
+
+}
+
+.airCondationsDetails {
+    font-family: Inter;
+font-size: 12px;
+font-weight: 500;
+line-height: 14.52px;
+text-align: left;
+
+    color: rgba(0, 0, 0, 1);
+    
+
+}
+
+
+.ForeCast{
+    position: absolute;
+    top: 58%;
+}
+
+.forecast p{
+    font-family: Inter;
+font-size: 14.33px;
+font-weight: 500;
+line-height: 17.34px;
+text-align: left;
+color: rgba(0, 0, 0, 1);
+
+}
+
+.forecastTempText{
+    font-family: Inter;
+font-size: 14.33px;
+font-weight: 500;
+line-height: 17.34px;
+
+color: rgba(0, 0, 0, 1);
+}
+
+ .forecastTemp > span:nth-child(1){ 
+   position: absolute;
+   top: 23%;
+   left: 6%;
+
+}
+.forecastTemp > span:nth-child(2){ 
+    position: absolute;
+    top: 25%;
+    left: 16%;
+ 
+ }
+
+ .forecastTemp > span:nth-child(3){ 
+    position: absolute;
+    top: 49%;
+    left: 26%;
+ 
+ }
+
+ .forecastTemp > span:nth-child(4){ 
+    position: absolute;
+    top: 60%;
+    left: 36%;
+ 
+ }.forecastTemp > span:nth-child(5){ 
+    position: absolute;
+    top: 41%;
+    left: 46%;
+ 
+ }.forecastTemp > span:nth-child(6){ 
+    position: absolute;
+    top: 46%;
+    left: 56%;
+ 
+ }.forecastTemp > span:nth-child(7){ 
+    position: absolute;
+    top: 50%;
+    left: 66%;
+ 
+ }
+ .forecastTemp > span:nth-child(8){ 
+    position: absolute;
+    top: 66%;
+    left: 6%;
+ 
+ }
+ .forecastTemp > span:nth-child(9){ 
+    position: absolute;
+    top: 80%;
+    left: 16%;
+ 
+ }
+ .forecastTemp > span:nth-child(10){ 
+    position: absolute;
+    top: 94%;
+    left: 26%;
+ 
+ }
+ .forecastTemp > span:nth-child(11){ 
+    position: absolute;
+    top: 88%;
+    left: 36%;
+ 
+ }
+ .forecastTemp > span:nth-child(12){ 
+    position: absolute;
+    top: 84%;
+    left: 46%;
+ 
+ }
+ .forecastTemp > span:nth-child(13){ 
+    position: absolute;
+    top: 100%;
+    left: 56%;
+ 
+ }
+ .forecastTemp > span:nth-child(14){ 
+    position: absolute;
+    top: 105%;
+    left: 66%;
+ 
+ }
+
+ .forecastTempTextTime{
+    font-family: Inter;
+font-size: 8.19px;
+font-weight: 400;
+line-height: 9.91px;
+text-align: center;
+color: rgba(0, 0, 0, 1);
+
+ }
